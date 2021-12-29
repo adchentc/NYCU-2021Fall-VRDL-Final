@@ -4,7 +4,10 @@
 ## <div align="center">Introduction</div>
 
 ## <div align="center">Proposed Approach</div>
-
+<p>
+<!--    <a align="left" href="https://ultralytics.com/yolov5" target="_blank"> -->
+   <img width="850" src="https://github.com/adchentc/NYCU_VRDL_Final_Project/blob/main/ourpropose-v1.png"></a>
+</p>
 
 ## <div align="center">Usage</div>
 
@@ -12,6 +15,7 @@
   - Python 3.8.8
   - PyTorch 1.9.0
   - ml_collections
+  
 #### 1. Object Detection
 Please refer to Official Github for YOLOv5, see this [link](https://github.com/ultralytics/yolov5)
 <details open>
