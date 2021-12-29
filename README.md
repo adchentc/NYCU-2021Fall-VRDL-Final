@@ -1,8 +1,12 @@
 # NYCU_VRDL_Final_Project
 
 
-## <div align="center">Introduction</div>
-
+## <div align="center">Abstract</div>
+In order to monitor unregulated fishing activites, the Nature Observatory organized a kaggle competition to detect and classify 7 species of fishes
+and 1 class of no fish. As fish classifier, we tried different kind of state-of-the-art model, also compare with the
+different kind of ensemble models. The object detection was applied to the inference dataset before feed the
+data into classifier. The best experimental result that we got is ensemble TransFG with ResNet 50, and
+achieve 1.64 in log loss of kaggle leaderboard on the private score.
 ## <div align="center">Proposed Approach</div>
 <p>
 <!--    <a align="left" href="https://ultralytics.com/yolov5" target="_blank"> -->
@@ -111,6 +115,8 @@ $ pip install -r requirements.txt
       ```
       
       
-  data:
+  #### data attachments:
   1. Train cropped image download [here](https://drive.google.com/file/d/1qDok32E0L8zk1lNSqA29uK4AmOgYlXtE/view?usp=sharing)
-  2. 
+  2. Testing data (after YOLOv5 cropped) download [here](https://drive.google.com/drive/folders/1OojkIA_IaaEMuAUKV4FFXccZmidpOpl8?usp=sharing)
+  3. YOLOv5 weight download [here](https://drive.google.com/drive/folders/16mwHjAohPtTD8ADpnPxHPGV0LvL7fO-O?usp=sharing)
+  4. TransFG weight download [here](https://drive.google.com/file/d/1jugkwQHQC3e5cghcvkflnRTmHs7UBOvf/view?usp=sharing)
