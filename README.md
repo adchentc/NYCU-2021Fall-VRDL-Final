@@ -1,4 +1,4 @@
-# VRDL final Project
+# VRDL Final Project
 
 
 ## <div align="center">Abstract</div>
